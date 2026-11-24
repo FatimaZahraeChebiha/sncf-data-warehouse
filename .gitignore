@@ -1,0 +1,10 @@
+# Fichiers trop lourds ou contenant les données
+*.pbix
+*.csv
+*.zip
+*.xlsx
+
+# Fichiers temporaires
+~$*
+.DS_Store
+Thumbs.db

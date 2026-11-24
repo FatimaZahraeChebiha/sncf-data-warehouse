@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_RTwQQTgcEfGkg_rBcqP6oQ" name="trajet2024" id="_RTwQQDgcEfGkg_rBcqP6oQ" dataPackage="_RTwQQjgcEfGkg_rBcqP6oQ" Server="Localhost 127.0.0.1" FilePath="C:/data/TRAJET_2024.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RTwQQjgcEfGkg_rBcqP6oQ" name="default" dataManager="_RTwQQTgcEfGkg_rBcqP6oQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RTwQQzgcEfGkg_rBcqP6oQ" id="_NEuEADgcEfGkg_rBcqP6oQ" label="2024">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSADg5EfGhr-57fWRWXA" label="id_trajet" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSATg5EfGhr-57fWRWXA" label="id_train" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSAjg5EfGhr-57fWRWXA" label="id_gare_depart" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSAzg5EfGhr-57fWRWXA" label="id_gare_arrivee" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSBDg5EfGhr-57fWRWXA" label="date_depart" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSBTg5EfGhr-57fWRWXA" label="heure_depart" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSBjg5EfGhr-57fWRWXA" label="heure_arrivee_prevue" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSBzg5EfGhr-57fWRWXA" label="distance_km" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iUdSCDg5EfGhr-57fWRWXA" label="statut_circulation" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

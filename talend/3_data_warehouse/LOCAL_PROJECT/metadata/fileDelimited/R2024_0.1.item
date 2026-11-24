@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_7U3hoDgcEfGkg_rBcqP6oQ" name="R2024" dataPackage="_7U3hoTgcEfGkg_rBcqP6oQ" Server="Localhost 127.0.0.1" FilePath="C:/data/RESERVATION_2024_2M.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_7U3hoTgcEfGkg_rBcqP6oQ" name="default" dataManager="_7U3hoDgcEfGkg_rBcqP6oQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7U3hojgcEfGkg_rBcqP6oQ" id="_1AhOsDgcEfGkg_rBcqP6oQ" label="R2024">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hozgcEfGkg_rBcqP6oQ" label="id_reservation" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hpDgcEfGkg_rBcqP6oQ" label="id_client" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hpTgcEfGkg_rBcqP6oQ" label="id_trajet" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hpjgcEfGkg_rBcqP6oQ" label="date_reservation" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hpzgcEfGkg_rBcqP6oQ" label="tarif_type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hqDgcEfGkg_rBcqP6oQ" label="classe_reservee" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hqTgcEfGkg_rBcqP6oQ" label="prix_unitaire" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hqjgcEfGkg_rBcqP6oQ" label="nb_passagers" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hqzgcEfGkg_rBcqP6oQ" label="montant_total" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hrDgcEfGkg_rBcqP6oQ" label="canal_vente" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hrTgcEfGkg_rBcqP6oQ" label="mode_paiement" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7U3hrjgcEfGkg_rBcqP6oQ" label="statut_reservation" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
